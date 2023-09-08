@@ -82,6 +82,41 @@ article.information section.information-box li h4{
 
 }
 
+/*Teams of the year*/
+section.teams-of-the-year{
+    padding: 40px 50px;
+    background: #3CDDF3;
+    text-align: center;
+}
+
+section.teams-of-the-year h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.6%; /* 47.84px */
+    letter-spacing: -0.2px;
+    padding: 0px 30px;
+}
+
+section.teams-of-the-year h2 span{
+    display: block;
+    width: 100%;
+}
+
+section.teams-of-the-year button{
+    color: #fff;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    border: 0;
+    margin-top: 50px;
+}
+
 /*Footer*/
 
 footer.footer-section{
