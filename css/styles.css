@@ -82,6 +82,68 @@ article.information section.information-box li h4{
 
 }
 
+/*Best of the month*/
+section.best-of-the-month{
+    margin: 58px 18px;
+    width: 445px;
+    text-align: center;
+}
+
+section.best-of-the-month h2{
+    color: #242E53;
+
+    font-size: 39.214px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%; /* 61.41px */
+    letter-spacing: -0.392px;
+}
+
+div.best-of-the-month-card{
+    background: #FAFAFA;
+    text-align: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+div.best-of-the-month-card img{
+    margin-top: -30px;
+}
+
+div.best-of-the-month-card h4{
+    color: #3F4868;
+    font-size: 16.071px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%; /* 25.168px */
+    letter-spacing: -0.161px;
+    margin: 20px 0px;
+}
+
+div.best-of-the-month-card p{
+    color: #B9B9C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%; /* 25.056px */
+    margin: 0 25px;
+    padding-bottom: 40px;
+}
+
+section.best-of-the-month button{
+    color: #fff;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #8B48BF;
+    border: none;
+}
+
+
 /*Teams of the year*/
 section.teams-of-the-year{
     padding: 40px 50px;
