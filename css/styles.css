@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 header.header-bar{
     display: flex;
@@ -93,24 +93,69 @@ footer.footer-section{
 footer.footer-section form.form-footer{
     display: flex;
     justify-content: center;
+    padding: 10px 50px;
+}
+
+footer.footer-section form.form-footer input[type='text']{
+    height: 40px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    width: 288px;
+}
+
+footer.footer-section form.form-footer input[type='submit']{
+    height: 40px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: #fff;
+    border: none;
+    width: 55px;
+    margin-left: 10px;
+
 }
 
 footer.footer-section nav.menu-footer{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0px;
+    justify-content: space-around;
+    padding: 25px 0px;
 }
 
 footer.footer-section nav.menu-footer ul{
     list-style: none;
+    padding: 0px;
+}
+
+footer.footer-section nav.menu-footer ul li{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
 }
 
 footer.footer-section nav.icon-footer{
     padding: 20px 0px;
+    
 }
 
 footer.footer-section nav.icon-footer ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding: 0;
+}
+
+footer.footer-section img.logo-footer{
+    margin-top: 20px;
+    display: flex;
+    margin: 25px auto;
+}
+
+footer.footer-section p.p-footer{
+    text-align: center;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
