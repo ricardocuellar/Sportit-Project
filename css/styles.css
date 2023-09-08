@@ -81,3 +81,36 @@ article.information section.information-box li h4{
 
 
 }
+
+/*Footer*/
+
+footer.footer-section{
+    background-color: #1E1E26;
+    color: #fff;
+    padding: 40px 10px;
+}
+
+footer.footer-section form.form-footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer.footer-section nav.menu-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+footer.footer-section nav.menu-footer ul{
+    list-style: none;
+}
+
+footer.footer-section nav.icon-footer{
+    padding: 20px 0px;
+}
+
+footer.footer-section nav.icon-footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
