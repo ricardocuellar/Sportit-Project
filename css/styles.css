@@ -75,12 +75,54 @@ section.between-pros p{
     text-align: left;
 }
 
+
+article.information section.information-box{
+    margin: 60px 0px;
+}
+
 article.information section.information-box li h4{
     background-color: rgba(139, 72, 191, 0.30);
     color: #323851;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: -15px;
+}
 
+
+
+article.information section.information-box ol{
+    list-style: none;
+    padding-left: 34px;
+}
+
+article.information section.information-box ol li div.information-box-title{
+    display: flex;
+    align-items: center;
+}
+
+article.information section.information-box ol li div.information-box-title span{
+    color: #fff;
+    border-radius: 30px;
+    background: #8B48BF;    
+    padding: 10px 25px;
 
 }
+article.information section.information-box ol li div.information-box-title h4{
+    width: 100%;
+}
+
+article.information section.information-box ol li p{
+    color: #B3B2B7;
+    font-size: 16.298px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%; /* 25.523px */
+    letter-spacing: -0.163px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+
 
 /*Best of the month*/
 section.best-of-the-month{
