@@ -22,7 +22,7 @@ header.header-bar .desk-menu{
 section.banner img.banner-image{
     width: 400px;
     height: 341.533px;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
 }
 
 div.banner-info{
@@ -98,8 +98,6 @@ article.information section.information-box li h4{
     margin-left: -15px;
 }
 
-
-
 article.information section.information-box ol{
     list-style: none;
     padding-left: 34px;
@@ -137,7 +135,6 @@ article.information section.information-box ol li p{
 /*Best of the month*/
 section.best-of-the-month{
     margin: 58px 18px;
-    width: 445px;
     text-align: center;
 }
 
@@ -193,6 +190,14 @@ section.best-of-the-month button{
     border-radius: 50px;
     background: #8B48BF;
     border: none;
+}
+
+div.best-of-the-month-card{
+    display: none;
+}
+
+div.active-mobile-card{
+    display: block;
 }
 
 
@@ -252,6 +257,9 @@ footer.footer-section form.form-footer input[type='text']{
     border: none;
     width: 288px;
 }
+footer.footer-section form.form-footer input[type='text']::placeholder{
+    padding-left: 10px;
+}
 
 footer.footer-section form.form-footer input[type='submit']{
     height: 40px;
@@ -310,10 +318,10 @@ footer.footer-section p.p-footer{
 }
 
 
- /*@media (min-width: 768px){
+ @media (min-width: 768px){
     section.banner div.banner-image-box{
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     section.banner img.banner-image{
@@ -326,13 +334,17 @@ footer.footer-section p.p-footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 58px 28px;
+        margin: 58px auto;
         width: 600px;
     }
     
  }
-*/
+
  @media (min-width: 1024px) {
+
+    header.header-bar{
+        padding: 56px 0px;
+    }
 
     header.header-bar .desk-menu{
         display: block;
@@ -377,8 +389,8 @@ footer.footer-section p.p-footer{
     }
 
     section.banner img.banner-image {
-        width: 356px;
-        height: 395.07px;
+        width: 414px;
+        height: 357px;
     }
 
     section.banner div.banner-info{
@@ -483,6 +495,8 @@ footer.footer-section p.p-footer{
 
     }
 
+    
+
     div.best-of-the-month-card {
         margin-bottom: 40px;
     }
@@ -490,6 +504,10 @@ footer.footer-section p.p-footer{
     section.best-of-the-month button:hover{
         background: rgba(139, 72, 191, 0.70);
     }   
+
+    div.best-of-the-month-card{
+        display: block;
+    }
 
     footer.footer-section{
         padding: 52px 10px;
