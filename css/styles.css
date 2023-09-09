@@ -310,7 +310,7 @@ footer.footer-section p.p-footer{
 }
 
 
- @media (min-width: 768px){
+ /*@media (min-width: 768px){
     section.banner div.banner-image-box{
         display: flex;
         justify-content: end;
@@ -331,7 +331,7 @@ footer.footer-section p.p-footer{
     }
     
  }
-
+*/
  @media (min-width: 1024px) {
 
     header.header-bar .desk-menu{
@@ -441,6 +441,62 @@ footer.footer-section p.p-footer{
         background-color: transparent;
     }
     
+    section.teams-of-the-year{
+        display: flex;
+        background-color: #8B48BF;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    section.teams-of-the-year h2 span{
+        display: none;
+    }
+
+    section.teams-of-the-year h2{
+        width: 393px;
+        height: 96px;
+        text-align: left;
+    }
+
+    section.teams-of-the-year button {
+        color: #8B48BF;
+        font-size: 13.181px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 0px;
+        background-color: #FFF;
+    }
+
+    section.best-of-the-month div.container-best-of-the-month{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 58px 28px;
+        width: 100%;
+    }
+
+    div.container-best-of-the-month div.best-of-the-month-card1 p{
+        color: #B9B9C1;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 156.6%; /* 25.056px */
+        margin: 0 25px;
+        padding-bottom: 40px;
+    }
+
+    div.container-best-of-the-month div.best-of-the-month-card2 p{
+        color: #B9B9C1;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 156.6%; /* 25.056px */
+        margin: 0 25px;
+        padding-bottom: 40px;
+    }
  }
 
 @media (min-width: 1440px) {
