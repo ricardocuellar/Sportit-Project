@@ -444,9 +444,10 @@ footer.footer-section p.p-footer{
     section.teams-of-the-year{
         display: flex;
         background-color: #8B48BF;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         margin-top: 120px;
+        padding: 40px 100px 40px 40px;
     }
 
     section.teams-of-the-year h2 span{
@@ -490,7 +491,52 @@ footer.footer-section p.p-footer{
         background: rgba(139, 72, 191, 0.70);
     }   
 
+    footer.footer-section{
+        padding: 52px 10px;
+    }
+
+    footer.footer-section form.form-footer {
+        padding: 0;
+    }
+
+    div.footer-section-elements{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    div.footer-section-elements nav.icon-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    div.footer-section-elements nav.icon-footer ul{
+        display: flex;
+        gap: 15px;
+    }
+
+    div.footer-section-elements nav.menu-footer{
+        display: flex;
+        padding: 0px;
+        gap: 130px;
+    }
+
+    footer.footer-section img.logo-footer{
+        margin: 0px;
+        padding: 10px 0px;
+    }
+
+    footer.footer-section form.form-footer input[type='text'] {
+        width: 200px;
+    }
    
+    footer.footer-section p.p-footer{
+        text-align: right;
+    }
+    
+
  }
 
 @media (min-width: 1440px) {
@@ -501,5 +547,11 @@ footer.footer-section p.p-footer{
     section.banner img.banner-image{
         width: 540px;
         height: 461.07px;
+    }
+
+    section.teams-of-the-year{
+
+        padding: 40px 150px;
+        
     }
  }
