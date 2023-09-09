@@ -446,6 +446,7 @@ footer.footer-section p.p-footer{
         background-color: #8B48BF;
         justify-content: space-around;
         align-items: center;
+        margin-top: 120px;
     }
 
     section.teams-of-the-year h2 span{
@@ -468,35 +469,28 @@ footer.footer-section p.p-footer{
         background-color: #FFF;
     }
 
+    section.best-of-the-month{
+        width: 100%;
+        margin: 0;
+    }
+
     section.best-of-the-month div.container-best-of-the-month{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 58px 28px;
-        width: 100%;
+        margin: 0px 70px;
+
     }
 
-    div.container-best-of-the-month div.best-of-the-month-card1 p{
-        color: #B9B9C1;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 156.6%; /* 25.056px */
-        margin: 0 25px;
-        padding-bottom: 40px;
+    div.best-of-the-month-card {
+        margin-bottom: 40px;
     }
 
-    div.container-best-of-the-month div.best-of-the-month-card2 p{
-        color: #B9B9C1;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 156.6%; /* 25.056px */
-        margin: 0 25px;
-        padding-bottom: 40px;
-    }
+    section.best-of-the-month button:hover{
+        background: rgba(139, 72, 191, 0.70);
+    }   
+
+   
  }
 
 @media (min-width: 1440px) {
