@@ -1,0 +1,581 @@
+*{
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+ul{
+    list-style: none;
+}
+
+header.header-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 56px 40px;
+}
+
+header.header-bar .desk-menu{
+    display: none;
+}
+
+section.banner img.banner-image{
+    width: 400px;
+    height: 341.533px;
+    /* margin: 0px 30px; */
+}
+
+div.banner-info{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+div.banner-info h1{
+    color: #232C50;
+    text-align: right;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    letter-spacing: -1.75px;
+    margin: 60px 40px 10px;
+}
+
+div.banner-info p{
+    color: #000;
+    text-align: right;
+    font-size: 16.558px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 157.1%; /* 26.013px */
+    margin: 0px 40px 20px;
+}
+
+div.banner-info a{
+    padding: 10px 50px;
+    margin-right: 36px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: #fff;
+}
+
+section.between-pros{
+    background-color:#3CDDF3;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+section.between-pros h2{
+    color: #fff;
+    padding: 40px 20px 50px 20px;
+    text-align: left;
+    font-size: 40px;
+    margin: 0px;
+}
+
+section.between-pros p{
+    color: #fff;
+    margin: 0px;
+    padding: 0px 20px 40px 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.1%; /* 24.176px */
+    text-align: left;
+}
+
+
+article.information section.information-box{
+    margin: 60px 0px;
+}
+
+article.information section.information-box li h4{
+    background-color: rgba(139, 72, 191, 0.30);
+    color: #323851;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: -15px;
+}
+
+article.information section.information-box ol{
+    list-style: none;
+    padding-left: 34px;
+}
+
+article.information section.information-box ol li div.information-box-title{
+    display: flex;
+    align-items: center;
+}
+
+article.information section.information-box ol li div.information-box-title span{
+    color: #fff;
+    border-radius: 30px;
+    background: #8B48BF;    
+    padding: 10px 25px;
+
+}
+article.information section.information-box ol li div.information-box-title h4{
+    width: 100%;
+}
+
+article.information section.information-box ol li p{
+    color: #B3B2B7;
+    font-size: 16.298px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%; /* 25.523px */
+    letter-spacing: -0.163px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+
+
+/*Best of the month*/
+section.best-of-the-month{
+    margin: 58px 18px;
+    text-align: center;
+}
+
+section.best-of-the-month h2{
+    color: #242E53;
+
+    font-size: 39.214px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%; /* 61.41px */
+    letter-spacing: -0.392px;
+}
+
+div.best-of-the-month-card{
+    background: #FAFAFA;
+    text-align: center;
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+div.best-of-the-month-card img{
+    margin-top: -30px;
+}
+
+div.best-of-the-month-card h4{
+    color: #3F4868;
+    font-size: 16.071px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.6%; /* 25.168px */
+    letter-spacing: -0.161px;
+    margin: 20px 0px;
+}
+
+div.best-of-the-month-card p{
+    color: #B9B9C1;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 156.6%; /* 25.056px */
+    margin: 0 25px;
+    padding-bottom: 40px;
+}
+
+section.best-of-the-month button{
+    color: #fff;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #8B48BF;
+    border: none;
+}
+
+div.best-of-the-month-card{
+    display: none;
+}
+
+div.active-mobile-card{
+    display: block;
+}
+
+
+/*Teams of the year*/
+section.teams-of-the-year{
+    padding: 40px 50px;
+    background: #3CDDF3;
+    text-align: center;
+}
+
+section.teams-of-the-year h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 119.6%; /* 47.84px */
+    letter-spacing: -0.2px;
+    padding: 0px 30px;
+}
+
+section.teams-of-the-year h2 span{
+    display: block;
+    width: 100%;
+}
+
+section.teams-of-the-year button{
+    color: #fff;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #232C50;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    border: 0;
+    margin-top: 50px;
+}
+
+/*Footer*/
+
+footer.footer-section{
+    background-color: #1E1E26;
+    color: #fff;
+    padding: 40px 10px;
+}
+
+footer.footer-section form.form-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+footer.footer-section form.form-footer input[type='text']{
+    height: 40px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    width: 288px;
+}
+footer.footer-section form.form-footer input[type='text']::placeholder{
+    padding-left: 10px;
+}
+
+footer.footer-section form.form-footer input[type='submit']{
+    height: 40px;
+    border-radius: 50px;
+    background: #8B48BF;
+    color: #fff;
+    border: none;
+    width: 55px;
+    margin-left: 10px;
+
+}
+
+footer.footer-section nav.menu-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+}
+
+footer.footer-section nav.menu-footer ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer.footer-section nav.menu-footer ul li{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+footer.footer-section nav.icon-footer{
+    padding: 20px 0px;
+    
+}
+
+footer.footer-section nav.icon-footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+footer.footer-section img.logo-footer{
+    margin-top: 20px;
+    display: flex;
+    margin: 25px auto;
+}
+
+footer.footer-section p.p-footer{
+    text-align: center;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+ @media (min-width: 768px){
+    section.banner div.banner-image-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    section.banner img.banner-image{
+        text-align: right;
+        margin: 0px;
+        width: 50%;
+    }
+
+    section.best-of-the-month{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 58px auto;
+        width: 600px;
+    }
+    
+ }
+
+ @media (min-width: 1024px) {
+
+    header.header-bar{
+        padding: 56px 0px;
+    }
+
+    header.header-bar .desk-menu{
+        display: block;
+    }
+
+    nav.nav-menu ul{
+        display: flex;
+        gap: 28px;
+    }
+    nav.nav-menu ul li a{
+        text-decoration: none;
+        color: #242E52;
+    }
+
+    nav.nav-menu ul li a:hover{
+        color: rgba(36, 46, 82, 0.60);
+    }
+
+    header.header-bar button{
+        color: #fff;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 50px;
+        background: #8B48BF;
+        border: none;
+    }
+
+    a.hamburger-menu{
+        display: none;
+    }
+
+    .container{
+        margin: 0px 60px;
+    }
+
+    section.banner{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    section.banner img.banner-image {
+        width: 414px;
+        height: 357px;
+    }
+
+    section.banner div.banner-info{
+        margin-left: 100px
+    }
+
+    div.banner-info h1 {
+        margin: 60px 0px 10px;
+    }
+
+    div.banner-info p {
+        margin: 28px 0px 28px;
+    }
+
+    div.banner-info a {
+        margin-right: 0px;
+    }
+
+    section.between-pros{
+        background-color: #8B48BF;
+    }
+
+    div.between-pros-info{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 100px;
+        padding: 40px 0px;
+    }
+
+    div.between-pros-info h2{
+        font-size: 36px;
+        width: 460px;
+        padding: 10px 0px;
+    }
+
+    div.between-pros-info p{
+        width: 450px;
+        padding: 10px 0px;
+
+    }
+
+    section.information-box ol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px
+    }
+
+    section.information-box ol li{
+        width: 45%;
+    }
+
+    article.information section.information-box ol li p{
+        padding: 8px 10px 8px 85px;
+        margin: 0;
+    }
+
+    article.information section.information-box ol li div.information-box-title h4{
+        background-color: transparent;
+    }
+    
+    section.teams-of-the-year{
+        display: flex;
+        background-color: #8B48BF;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+        padding: 40px 100px 40px 40px;
+    }
+
+    section.teams-of-the-year h2 span{
+        display: none;
+    }
+
+    section.teams-of-the-year h2{
+        width: 393px;
+        height: 96px;
+        text-align: left;
+    }
+
+    section.teams-of-the-year button {
+        color: #8B48BF;
+        font-size: 13.181px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 0px;
+        background-color: #FFF;
+    }
+
+    section.best-of-the-month{
+        width: 100%;
+        margin: 0;
+    }
+
+    section.best-of-the-month div.container-best-of-the-month{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0px 70px;
+
+    }
+
+    
+
+    div.best-of-the-month-card {
+        margin-bottom: 40px;
+    }
+
+    section.best-of-the-month button:hover{
+        background: rgba(139, 72, 191, 0.70);
+    }   
+
+    div.best-of-the-month-card{
+        display: block;
+    }
+
+    footer.footer-section{
+        padding: 52px 10px;
+    }
+
+    footer.footer-section form.form-footer {
+        padding: 0;
+    }
+
+    div.footer-section-elements{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    div.footer-section-elements nav.icon-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    div.footer-section-elements nav.icon-footer ul{
+        display: flex;
+        gap: 15px;
+    }
+
+    div.footer-section-elements nav.menu-footer{
+        display: flex;
+        padding: 0px;
+        gap: 130px;
+    }
+
+    footer.footer-section img.logo-footer{
+        margin: 0px;
+        padding: 10px 0px;
+    }
+
+    footer.footer-section form.form-footer input[type='text'] {
+        width: 200px;
+    }
+   
+    footer.footer-section p.p-footer{
+        text-align: right;
+    }
+    
+
+ }
+
+@media (min-width: 1440px) {
+    .container{
+        margin: 0px 170px;
+    }
+
+    section.banner img.banner-image{
+        width: 540px;
+        height: 461.07px;
+    }
+
+    section.teams-of-the-year{
+
+        padding: 40px 150px;
+        
+    }
+ }
+
+ @media (min-width: 1625px) {
+    .container{
+        margin: 0px 20%;
+    }
+ }
