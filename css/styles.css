@@ -2,11 +2,21 @@
     margin: 0px;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
+
+
+ul{
+    list-style: none;
+}
+
 header.header-bar{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 56px 40px;
+}
+
+header.header-bar .desk-menu{
+    display: none;
 }
 
 section.banner img.banner-image{
@@ -323,15 +333,52 @@ footer.footer-section p.p-footer{
  }
 
  @media (min-width: 1024px) {
+
+    header.header-bar .desk-menu{
+        display: block;
+    }
+
+    nav.nav-menu ul{
+        display: flex;
+        gap: 28px;
+    }
+    nav.nav-menu ul li a{
+        text-decoration: none;
+        color: #242E52;
+    }
+
+    nav.nav-menu ul li a:hover{
+        color: rgba(36, 46, 82, 0.60);
+    }
+
+    header.header-bar button{
+        color: #fff;
+        width: 134px;
+        height: 44px;
+        padding: 10px;
+        gap: 10px;
+        border-radius: 50px;
+        background: #8B48BF;
+        border: none;
+    }
+
+    a.hamburger-menu{
+        display: none;
+    }
+
+    .container{
+        margin: 0px 60px;
+    }
+
     section.banner{
         display: flex;
         justify-content: space-between;
-        margin: 0px 170px;
+        
     }
 
-    section.banner img.banner-image{
-        width: 540px;
-        height: 461.07px;
+    section.banner img.banner-image {
+        width: 356px;
+        height: 395.07px;
     }
 
     section.banner div.banner-info{
@@ -349,5 +396,60 @@ footer.footer-section p.p-footer{
     div.banner-info a {
         margin-right: 0px;
     }
+
+    section.between-pros{
+        background-color: #8B48BF;
+    }
+
+    div.between-pros-info{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px 100px;
+        padding: 40px 0px;
+    }
+
+    div.between-pros-info h2{
+        font-size: 36px;
+        width: 460px;
+        padding: 10px 0px;
+    }
+
+    div.between-pros-info p{
+        width: 450px;
+        padding: 10px 0px;
+
+    }
+
+    section.information-box ol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px
+    }
+
+    section.information-box ol li{
+        width: 45%;
+    }
+
+    article.information section.information-box ol li p{
+        padding: 8px 10px 8px 85px;
+        margin: 0;
+    }
+
+    article.information section.information-box ol li div.information-box-title h4{
+        background-color: transparent;
+    }
     
+ }
+
+@media (min-width: 1440px) {
+    .container{
+        margin: 0px 170px;
+    }
+
+    section.banner img.banner-image{
+        width: 540px;
+        height: 461.07px;
+    }
  }
