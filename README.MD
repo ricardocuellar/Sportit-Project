@@ -1,1 +1,5 @@
 # Sportit Project
+
+## Colaborators
+
+- Luisa 

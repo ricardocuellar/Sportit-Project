@@ -573,3 +573,9 @@ footer.footer-section p.p-footer{
         
     }
  }
+
+ @media (min-width: 1625px) {
+    .container{
+        margin: 0px 20%;
+    }
+ }
